@@ -1,0 +1,46 @@
+.tableDiv {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 500px;
+}
+.table {
+	border: solid 1px;
+	width: 1000px;
+}
+
+.headerTable {
+	border: solid 1px;
+}
+
+.body {
+	border: solid 1px;
+	text-align: center;
+	max-width: 500px;
+}
+
+.btn {
+	width: 15%;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 1.2;
+	justify-content: center;
+	height: 32px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px 0 15px;
+	width: 1000px;
+}
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}

@@ -1,0 +1,6 @@
+export const ACTION_TYPE = {
+	POST_DATA: 'POST_DATA',
+	GET_DATA: 'GET_DATA',
+	LOGIN: 'LOGIN',
+	LOGOUT: 'LOGOUT',
+};
