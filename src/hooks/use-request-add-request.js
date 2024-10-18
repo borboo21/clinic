@@ -11,6 +11,7 @@ export const requestAddRequest = (req) => {
 			.then((rawResponse) => rawResponse.json())
 			.then((response) => {
 				dispatch({ type: ACTION_TYPE.POST_DATA, payload: response });
-			});
+			})
+			.finally(alert('Заявка успешно отправлена'));
 	};
 };
